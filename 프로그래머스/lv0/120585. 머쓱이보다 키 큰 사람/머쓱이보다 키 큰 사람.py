@@ -1,3 +1,9 @@
 def solution(array, height):
-    answer = sum([ 1 if i>height else 0 for i in sorted(array)  ])
-    return answer
+    return sum([ 1 if i>height else 0 for i in sorted(array) ])
+
+
+"""
+array.append(height)
+array.sort(reverse=True)
+return array.index(height)
+"""
