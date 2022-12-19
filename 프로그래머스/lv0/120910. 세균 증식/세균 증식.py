@@ -4,3 +4,6 @@ def solution(n, t):
         a *= 2
         
     return a
+
+# 2**t * n  # n*(2**t)
+# n << t
