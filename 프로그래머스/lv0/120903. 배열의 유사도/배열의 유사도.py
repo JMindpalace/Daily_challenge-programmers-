@@ -5,3 +5,5 @@ def solution(s1, s2):
             if i==j:
                 answer += 1
     return answer
+
+# len(set(s1)&set(s2))
