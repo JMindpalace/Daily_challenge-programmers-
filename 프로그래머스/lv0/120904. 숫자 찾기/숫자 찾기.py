@@ -6,3 +6,12 @@ def solution(num, k):
         else:
             answer = -1
     return answer
+
+# -1 if str(k) not in str(num) else str(num).find(str(k)) + 1
+
+"""
+    try:
+        return str(num).index(str(k)) + 1
+    except ValueError:
+        return -1
+"""
